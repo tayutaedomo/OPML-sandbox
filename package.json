@@ -6,6 +6,7 @@
   "author": "",
   "license": "MIT",
   "scripts": {
-    "read": "poetry run python scripts/read_xml.py var/feedly.opml"
+    "read": "poetry run python scripts/read_xml.py var/feedly.opml",
+    "parse": "poetry run python scripts/parse_opml.py var/feedly.opml"
   }
 }
